@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor-principal {
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+.tarjeta-producto {
+    width: 200px;
+    margin: 15px;
+    border: 3px solid beige;
+    padding: 10px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.tarjeta-producto img {
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta-producto p {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

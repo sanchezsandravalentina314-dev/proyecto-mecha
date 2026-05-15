@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tarjeta{
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.perfil{
+    text-align: center;
+}
+.perfil img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.datos{
+    background-color: #ffd6ec;
+    border-color: #ff66b2;
+}
+.academica{
+    background-color: #ead6ff;
+    border-color: #9933ff;
+}
+.experiencia{
+    background-color: #d6e8ff;
+    border-color: #3399ff;
+}
+.referencias{
+    background-color: #ffe6f7;
+    border-color: #cc66cc;
+}
